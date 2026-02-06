@@ -32,4 +32,29 @@ Open in Colab: Upload the ASSIGNMENT.ipynb file to your Google Colab account.
 
 Upload Data: When prompted by the notebook's execution cells, upload the fear_greed_index.xlsx file.
 
-Run Cells: Execute the cells sequentially to perform the data cleaning, analysis, and visualization steps.
+To run the code provided in the ASSIGNMENT.ipynb notebook, follow these steps designed for a Google Colab environment:
+
+1. Environment Setup
+Open Google Colab: Go to colab.research.google.com and upload the ASSIGNMENT.ipynb file.
+
+Library Requirements: The notebook requires several standard Python libraries for data analysis and visualization:
+
+pandas
+
+numpy
+
+matplotlib
+
+seaborn
+
+2. Execution Steps
+Import Libraries: Run the first cell to import the necessary data processing and plotting packages.
+
+Upload Data Files:
+
+The notebook contains specific cells that use from google.colab import files to prompt for a file upload.
+
+When you run these cells, a "Choose Files" button will appear. You must select and upload the corresponding Excel file, such as fear_greed_index.xlsx.
+
+Run Sequential Cells: After the data is successfully uploaded (you will see a message like "Saving fear_greed_index.xlsx to fear_greed_index.xlsx"), continue running the remaining cells in order to process the data and generate visualizations.
+
