@@ -1,60 +1,89 @@
-# Primetrade.ai-assignment
-Assignment for data science intern role at Primetrade.ai 
-
-Based on the content of your uploaded Jupyter Notebook, here is README material you can use for your project.
-
-Financial Sentiment Analysis: Fear & Greed Index
 Project Overview
-This project performs data analysis on financial market indicators, specifically focusing on the Fear & Greed Index. The objective is to analyze historical data from an Excel dataset (fear_greed_index.xlsx) to understand market sentiment trends.
 
-Features
-Data Import: Automated loading of Excel data files within a Google Colab environment.
+This project analyzes financial market sentiment using the Fear & Greed Index, a widely used indicator that reflects investor emotions and market psychology. The goal is to extract insights from historical sentiment data and visualize how market fear and greed evolve over time.
 
-Data Analysis: Utilizing pandas and numpy for efficient data manipulation and numerical analysis.
+The analysis is performed using a Jupyter Notebook in Google Colab, leveraging Python’s data science ecosystem for efficient processing and visualization.
 
-Visualization: Generating insightful plots using matplotlib and seaborn to visualize sentiment fluctuations over time.
+Objectives
 
-Prerequisites
-To run this notebook, you will need the following Python libraries installed:
+Load and preprocess historical Fear & Greed Index data
 
-pandas
+Analyze sentiment trends over time
 
-numpy
+Identify key patterns in market psychology
 
-matplotlib
+Visualize sentiment fluctuations using charts and graphs
 
-seaborn
+Key Features
+Data Import
 
-openpyxl (for Excel file support)
+Loads Excel-based financial sentiment data (fear_greed_index.xlsx)
 
-Setup and Usage
-Open in Colab: Upload the ASSIGNMENT.ipynb file to your Google Colab account.
+Supports file upload directly in Google Colab
 
-Upload Data: When prompted by the notebook's execution cells, upload the fear_greed_index.xlsx file.
+Data Analysis
 
-To run the code provided in the ASSIGNMENT.ipynb notebook, follow these steps designed for a Google Colab environment:
+Uses pandas and numpy for cleaning, transformation, and statistical insights
 
-1. Environment Setup
-Open Google Colab: Go to colab.research.google.com and upload the ASSIGNMENT.ipynb file.
+Explores trends, distributions, and sentiment shifts
 
-Library Requirements: The notebook requires several standard Python libraries for data analysis and visualization:
+Visualization
 
-pandas
+Generates clear and informative visualizations using matplotlib and seaborn
 
-numpy
+Tracks sentiment changes across time
 
-matplotlib
+Tech Stack & Libraries
 
-seaborn
+The project requires the following Python libraries:
 
-2. Execution Steps
-Import Libraries: Run the first cell to import the necessary data processing and plotting packages.
+pandas – Data handling
 
-Upload Data Files:
+numpy – Numerical computation
 
-The notebook contains specific cells that use from google.colab import files to prompt for a file upload.
+matplotlib – Data visualization
 
-When you run these cells, a "Choose Files" button will appear. You must select and upload the corresponding Excel file, such as fear_greed_index.xlsx.
+seaborn – Enhanced plotting
 
-Run Sequential Cells: After the data is successfully uploaded (you will see a message like "Saving fear_greed_index.xlsx to fear_greed_index.xlsx"), continue running the remaining cells in order to process the data and generate visualizations.
+openpyxl – Excel file support
 
+How to Run the Project (Google Colab)
+Step 1: Open Notebook
+
+Go to https://colab.research.google.com
+
+Upload the ASSIGNMENT.ipynb notebook
+
+Step 2: Install & Import Libraries
+
+Run the initial cell to import required dependencies such as pandas, numpy, matplotlib, and seaborn.
+
+Step 3: Upload Dataset
+
+Run the cell containing:
+
+from google.colab import files
+
+
+Click “Choose Files”
+
+Upload fear_greed_index.xlsx
+
+Confirm upload (you should see a message like:
+Saving fear_greed_index.xlsx to fear_greed_index.xlsx)
+
+Step 4: Execute Analysis
+
+Run remaining cells sequentially
+
+View processed data, insights, and visualizations
+
+Output
+
+Cleaned dataset
+
+Sentiment trend analysis
+
+Time-series plots showing Fear vs Greed patterns
+
+Market behavior insights
