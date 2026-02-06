@@ -48,11 +48,7 @@ seaborn – Enhanced plotting
 openpyxl – Excel file support
 
 How to Run the Project (Google Colab)
-Step 1: Open Notebook
-
-Go to https://colab.research.google.com
-
-Upload the ASSIGNMENT.ipynb notebook
+Step 1:open assignment file in the repository 
 
 Step 2: Install & Import Libraries
 
